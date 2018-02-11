@@ -110,7 +110,7 @@ removeBtn.on("click", function() {
       return d.quote;
     })
     .exit()
-    .remove()
+    .remove();
 
   removeBtn.remove();
 });
